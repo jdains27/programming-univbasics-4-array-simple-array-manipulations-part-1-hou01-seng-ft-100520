@@ -7,16 +7,14 @@ def using_unshift(array, string)
 end
 
 def using_pop(anime_characters)
-  #anime_characters = ["Gon", "Luffy", "Killua", "Ash", "Kite"]
   anime_characters.pop
-  #anime_characters
 end
 
 def pop_with_args(anime_characters)
-  anime_characters = ["Gon", "Luffy", "Killua", "Ash"]
-  anime_characters.pop("Ash")
-  anime_characters.pop("Luffy")
-  anime_characters
+  #anime_characters = ["Gon", "Luffy", "Killua", "Ash"]
+  anime_characters.pop(2)
+  #anime_characters.pop()
+  #anime_characters
 end
 
 #def using_shift(my_favorite_players)
