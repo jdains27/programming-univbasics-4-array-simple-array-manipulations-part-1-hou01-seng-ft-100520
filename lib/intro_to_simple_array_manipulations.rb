@@ -18,7 +18,6 @@ def using_shift(nba_players)
   i_dont_like_these_players = nba_players.shift
 end
 
-def shift_with_args(ice_cream_brands)
-  @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  @brands_removed = @ice_cream_brands.shift(2)
+def shift_with_args(nba_players)
+  i_dont_like_these_players = nba_players.shift(2)
 end
