@@ -14,9 +14,8 @@ def pop_with_args(anime_characters)
   anime_characters.pop(2)
 end
 
-def using_shift(my_favorite_cities)
-  #@my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  im_so_over_this_city = my_favorite_cities.shift
+def using_shift(nba_players)
+  i_dont_like_these_players = nba_players.shift
 end
 
 def shift_with_args(ice_cream_brands)
