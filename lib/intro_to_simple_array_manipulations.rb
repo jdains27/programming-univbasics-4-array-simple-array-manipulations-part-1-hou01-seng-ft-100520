@@ -8,7 +8,7 @@ end
 
 def using_pop(anime_characters)
   anime_characters = ["Gon", "Luffy", "Killua", "Ash", "Kite"]
-  anime_characters.pop()
+  anime_characters.pop
   anime_characters
 end
 
