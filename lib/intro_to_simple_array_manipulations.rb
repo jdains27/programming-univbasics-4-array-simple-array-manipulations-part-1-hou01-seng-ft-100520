@@ -11,20 +11,12 @@ def using_pop(anime_characters)
 end
 
 def pop_with_args(anime_characters)
-  #anime_characters = ["Gon", "Luffy", "Killua", "Ash"]
   anime_characters.pop(2)
-  #anime_characters.pop()
-  #anime_characters
 end
 
-#def using_shift(my_favorite_players)
- # my_favorite_players = ["Harden", "Gordon", "Vote", "Green", "Covington"]
-  #im_so_over_these_players = my_favorite_players.shift
-#end
-
 def using_shift(my_favorite_cities)
-  @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  @im_so_over_this_city = @my_favorite_cities.shift
+  #@my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+  im_so_over_this_city = my_favorite_cities.shift
 end
 
 def shift_with_args(ice_cream_brands)
