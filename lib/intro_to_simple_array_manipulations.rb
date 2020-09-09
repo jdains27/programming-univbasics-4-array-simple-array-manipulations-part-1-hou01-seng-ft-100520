@@ -7,9 +7,9 @@ def using_unshift(array, string)
 end
 
 def using_pop(anime_characters)
-  anime_characters = ["Gon", "Luffy", "Killua", "Ash", "Kite"]
+  #anime_characters = ["Gon", "Luffy", "Killua", "Ash", "Kite"]
   anime_characters.pop
-  anime_characters
+  #anime_characters
 end
 
 def pop_with_args(anime_characters)
